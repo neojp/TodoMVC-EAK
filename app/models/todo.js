@@ -3,22 +3,24 @@ var Todo = DS.Model.extend({
   title      : DS.attr('string')
 });
 
-Todo.FIXTURES = [
- {
-   id         : 1,
-   isCompleted: true,
-   title      : 'Learn Ember.js'
- },
- {
-   id         : 2,
-   isCompleted: false,
-   title      : '...'
- },
- {
-   id         : 3,
-   isCompleted: false,
-   title      : 'Profit!'
- }
-];
+Todo.reopenClass({
+  FIXTURES: [
+    {
+      id         : 1,
+      isCompleted: true,
+      title      : 'Learn Ember.js'
+    },
+    {
+      id         : 2,
+      isCompleted: false,
+      title      : '...'
+    },
+    {
+      id         : 3,
+      isCompleted: false,
+      title      : 'Profit!'
+    }
+  ]
+});
 
 export default Todo;
