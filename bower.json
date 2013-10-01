@@ -3,6 +3,7 @@
   "dependencies": {
     "ember": "http://builds.emberjs.com/stable/ember.js",
     "ember-prod": "http://builds.emberjs.com/stable/ember.prod.js",
+    "ember-data-shim": "1.0.0-beta.3",
     "handlebars": "1.0.0",
     "jquery": "~1.9.1",
     "qunit": "~1.12.0"

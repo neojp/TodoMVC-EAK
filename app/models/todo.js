@@ -1,25 +1,23 @@
-var DS = window.DS;
-
 var Todo = DS.Model.extend({
-  title: DS.attr('string'),
-  isCompleted: DS.attr('boolean')
+  isCompleted: DS.attr('boolean'),
+  title      : DS.attr('string')
 });
 
 Todo.FIXTURES = [
  {
-   id: 1,
-   title: 'Learn Ember.js',
-   isCompleted: true
+   id         : 1,
+   isCompleted: true,
+   title      : 'Learn Ember.js'
  },
  {
-   id: 2,
-   title: '...',
-   isCompleted: false
+   id         : 2,
+   isCompleted: false,
+   title      : '...'
  },
  {
-   id: 3,
-   title: 'Profit!',
-   isCompleted: false
+   id         : 3,
+   isCompleted: false,
+   title      : 'Profit!'
  }
 ];
 

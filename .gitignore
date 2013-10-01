@@ -6,7 +6,7 @@
 
 # dependencies
 /node_modules
-# /vendor/*
+/vendor/*
 !/vendor/almond.js
 !/vendor/resolver.js
 
