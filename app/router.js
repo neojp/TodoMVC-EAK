@@ -1,4 +1,7 @@
-var Router = Ember.Router.extend();
+var Router = Ember.Router.extend({
+  // use pushState instead of hashchange on URLs
+  location: 'history'
+});
 
 Router.map(function() {
   this.resource('todos', { path: '/' }, function() {
@@ -6,11 +9,6 @@ Router.map(function() {
     this.route('active');
     this.route('completed');
   });
-});
-
-// use pushState instead of hashchange on URLs
-Router.reopen({
-  location: 'history'
 });
 
 export default Router;
