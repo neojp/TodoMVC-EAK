@@ -12,7 +12,6 @@ git clone https://github.com/neojp/TodoMVC-EAK.git
 cd TodoMVC-EAK
 npm install -g grunt-cli bower
 npm install
-bower install
 grunt server
 ```
 
