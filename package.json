@@ -8,6 +8,7 @@
     "test": "test"
   },
   "scripts": {
+    "postinstall": "bower install",
     "start": "grunt server",
     "build": "grunt build:debug",
     "test": "grunt test:ci"
