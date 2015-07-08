@@ -1,5 +1,13 @@
-TodoMVC demo using Ember App Kit
+Deprecated in favor of Ember CLI
 ==================
+Ember App Kit has been deprecated and is moving people towards the Ember CLI project; which offers better structure and build tools. Please use it instead.
+
+http://www.ember-cli.com/
+
+------------------------------------------------------------------------
+
+TodoMVC demo using Ember App Kit
+------------------
 
 This is a simple demo implementation of the official [Ember's Todo MVC](http://jsbin.com/aZIXaYo/1) app from the [guides section](http://emberjs.com/guides/getting-started/) using the [Ember App Kit](https://github.com/stefanpenner/ember-app-kit/) to organize the files and build the project.
 
